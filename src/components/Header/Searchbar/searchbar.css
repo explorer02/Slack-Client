@@ -1,0 +1,25 @@
+.searchbar {
+  flex: 1 0 20%;
+  max-width: 30%;
+  height: 60%;
+  padding: 10px 20px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  color: var(--color-border);
+  border-radius: var(--border-radius);
+  border: 2px solid var(--color-border);
+}
+
+.searchbar-input {
+  flex: none;
+  width: 100%;
+  height: 100%;
+
+  border: none;
+  outline: 0;
+
+  font-size: large;
+}

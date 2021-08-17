@@ -1,0 +1,11 @@
+.room-list {
+  flex: 1 0 0%;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  font-size: large;
+}
+.room-list > * {
+  flex: none;
+}

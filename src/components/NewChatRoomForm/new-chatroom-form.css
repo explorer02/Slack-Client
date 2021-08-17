@@ -1,0 +1,50 @@
+.new-chatroom-form-container {
+  width: 100%;
+  height: 100%;
+
+  flex: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+
+  font-size: x-large;
+}
+.new-chatroom-form-title-icon {
+  flex: none;
+}
+
+.new-chatroom-form-title-icon {
+  margin-right: 10px;
+}
+
+.new-chatroom-form-controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.new-chatroom-form-controls > button {
+  flex: none;
+}
+
+.new-chatroom-form-participants {
+  flex: none;
+  text-align: center;
+  font-size: large;
+  line-height: 2;
+  max-height: 30%;
+  min-height: 10%;
+  overflow: scroll;
+}
+
+.new-chatroom-form-participants span {
+  background: var(--color-background);
+  padding: 2px;
+  margin-left: 5px;
+}
+
+.new-chatroom-form-status {
+  flex: none;
+  color: var(--color-primary);
+}

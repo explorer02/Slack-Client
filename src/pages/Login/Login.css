@@ -1,0 +1,34 @@
+.login-container {
+  width: 100%;
+  flex: 1 0 0%;
+  padding: 10px;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.login-title {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: xxx-large;
+  color: var(--color-primary);
+}
+.login-form {
+  flex: none;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  font-size: x-large;
+}
+.login-status {
+  color: var(--color-primary);
+  text-align: center;
+}

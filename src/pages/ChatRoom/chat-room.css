@@ -1,0 +1,7 @@
+.chat-room {
+  flex: none;
+  width: 100%;
+  height: calc(100% - var(--header-height));
+  display: flex;
+  gap: 20px;
+}

@@ -1,0 +1,44 @@
+.header {
+  flex: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: white;
+  height: var(--header-height);
+  padding: 0 50px;
+}
+
+.header-home {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  height: 100%;
+}
+
+.header-logo {
+  flex: none;
+
+  background: url(../../assets/slack.svg);
+  background-repeat: no-repeat;
+
+  height: 45px;
+  width: 45px;
+}
+
+.header-home-title {
+  flex: none;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.header-profile {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-size: x-large;
+}

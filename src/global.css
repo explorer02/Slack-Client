@@ -1,0 +1,38 @@
+:root {
+  --color-primary: #007ee5;
+  --color-border: #4885c9;
+  --color-background: hsl(216, 20%, 95%);
+  --border-radius: 5px;
+  --header-height: 70px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  min-height: 100vh;
+  height: 100%;
+  background-color: var(--color-background);
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}

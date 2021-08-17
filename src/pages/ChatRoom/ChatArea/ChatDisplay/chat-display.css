@@ -1,0 +1,8 @@
+.chat-display {
+  flex: 0 1 75%;
+  background-color: white;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 10px;
+  overflow: scroll;
+}

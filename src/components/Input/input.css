@@ -1,0 +1,19 @@
+.styled-input-container {
+  flex: none;
+  width: 100%;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--color-border);
+  border-radius: var(--border-radius);
+  border: 2px solid var(--color-border);
+}
+
+.styled-input {
+  flex: none;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: 0;
+}
